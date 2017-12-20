@@ -1,0 +1,25 @@
+{
+  "name": "galaxy-dapp",
+  "version": "0.1.0",
+  "description": "An Ethereum dApp, built on Truffle.",
+  "author": "ITARI",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "1.0.0",
+    "keythereum":"^1.0.0",
+    "path": "^0.12.7",
+    "swagger-jsdoc": "^1.8.1",
+    "swagger-tools": "^0.10.1",
+    "truffle-contract": "^3.0.0",
+    "truffle-hdwallet-provider":"^0.0.3",
+    "web3": "^0.20.0"
+  }
+}
